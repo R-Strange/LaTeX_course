@@ -1,0 +1,37 @@
+\documentclass[twoside]{book}
+
+\title{Example fancyhdr document}
+\author{A\`{u} Th\o r}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[CO]{\rightmark}
+\fancyhead[CE]{\leftmark}
+\fancyfoot[RO, LE]{Page: \thepage}
+
+\usepackage{multicol}
+
+\usepackage{blindtext}
+\begin{document}
+\frontmatter
+\maketitle
+
+\chapter{foreword}
+
+\section{Acknowledgements}
+\Blindtext
+
+\section{Greetings}
+\begin{multicols}{2}
+[This is the multicol columns header for the Greetings section.]
+\Blindtext
+\end{multicols}
+
+\tableofcontents
+
+\mainmatter
+
+\Blinddocument
+
+\end{document}

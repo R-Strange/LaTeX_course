@@ -8,7 +8,7 @@ As the course is being taught using overleaf, all you will require is an free ov
 
 ## Directory Structure
 
-The root directory contains a copy of the slideset, as both a `.pptx` and `.pdf`.  and a `Day1` folder of example `.tex` files and their associated `.pdf`s.
+The root directory contains a copy of the slidesets, as both a `.pptx` and `.pdf`.  and `Day1`  and `Day2` folders of example `.tex` files and their associated `.pdf`s.
 
 An [additional template file](https://github.com/R-Strange/LaTeX_course/blob/master/example%20files/day%201/0_template.tex) is provided for use for in exercises or other use.
 
